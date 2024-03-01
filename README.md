@@ -9,7 +9,7 @@ Most (if not all) of the scripts shown here are from a very long-term project th
 
 The flag visualizer was something I came up with after the Kingdoms codebase started ballooning in size in early 2022. I needed a way to keep track of the growing number (and size) of flags saved on my test server, and the default Denizen view just wasn't cutting it for me anymore. The flag visualizer simplifies complex flag submaps into a cascade view with sub-mapped relations clearly shown with nesting levels (see below).
 
-< insert picture >
+(Screenshot of the flag visualizer script in action)[flag-visualizer.png]
 
 The script works by having a number of default formatting options for atomic data types like ElementTags, BinaryTags, ItemTags etc. When it comes to Lists and Maps, the script will run itself recursively, adding an extra 4 spaces of indentation with each call. There is also a helper procedure at the bottom of the file which adds the indentation, as well as word wrap for lines that run off the default 320px size of the Minecraft chat, which helps with readability.
 
