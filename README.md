@@ -34,3 +34,14 @@ The package indexer is a pretty straight-forward bit of code and is part of a la
 While they may not have as much to look at as CISK, I think the `SeekFolders_KPM` task is pretty neat, while the indexer itself is a pretty good showcase of sufficiency in simplicity.
 
 *yes, I know, I love my acronyms :)
+
+## SquadComposer.dsc
+*Free to use - Works by itself, but links to an outside script.*
+
+The squad composer is part of a larger subsystem which allows kingdoms to conduct large-scale, real time, true-to-life battles with NPCs of various types. The plan is to allow players to construct their armies and squads out of a large variety of soldier types, but for now as long as Kingdoms remains in alpha, there are only two types: Swordsmen and Archers.
+
+The squad composer is a graphical interface which allows players to outline the exact structure of squads by using representative icons to denote how many of each type of soldier is to be in a squad. The window allows players to place either 1 or 5 of a unit type at a time (denoted by leather caps and chainmail helmets respectively).
+
+< insert picture >
+
+A separate set of scripts will take the squad information that is being accumulated in temporary flags to spawn and equip the soldiers and register them on a larger server flag which represents the armies of each kingdom.
