@@ -1,6 +1,8 @@
-# Zyad's Work Samples
+# Zyad's Public Script Repo
 
 If you've been linked this repo then it means I've likely shown interest in working on your Denizen scripting project, and I wanted to showcase some of things I've created before!
+
+*either that or you were looking at one of my scripts in #showcase*
 
 Most (if not all) of the scripts shown here are from a very long-term project that I've been working on for over three and a half years called Kingdoms. Kingdoms is a massive undertaking which intends to turn your Minecraft server into a realistic, medieval-themed political strategy game with city building and battle mechanics akin to Manor Lords and international politics and story elements that draw inspiration from Paradox titles like Victoria III. While Kingdoms as a whole is (at this time) still private, the scripts shown here are not. Some of them are dev tools that work standalone, while others can make sense on their own (and serve as good personal showcases) but will not function if ran on a server by themselves. So feel free to look around, read through, or even copy some of the code in this repo, or you can read the short blurbs below which will summarize each of the scripts one-by-one in plain English.
 
