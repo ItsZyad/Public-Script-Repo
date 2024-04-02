@@ -49,8 +49,10 @@ FlagVisualizer_Recur:
     - define recursionDepth <[recursionDepth].if_null[0]>
     - define tabWidth <[recursionDepth].mul[4]>
 
+    # I like just keeping this around just because I'm paranoid. As far as I know, this has never
+    # crashed my server, and you can increase the limit/remove it if you like.
     - if <[recursionDepth]> > 49:
-        - narrate format:admincallout "Recursion depth exceeded 50! Killing queue: <script.queues.get[1]>"
+        - narrate "Recursion depth exceeded 50! Killing queue: <script.queues.get[1]>"
         - determine cancelled
 
     - if !<[flag].exists>:
