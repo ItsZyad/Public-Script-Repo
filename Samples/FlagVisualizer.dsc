@@ -5,7 +5,7 @@
 ##
 ## @Author: Zyad (@itszyad / ITSZYAD#9280)
 ## @Date: Mar 2023
-## @Script Ver: v1.8
+## @Script Ver: v1.8.1
 ##
 ##ignorewarning color_code_misformat
 ## ------------------------------------------END HEADER-------------------------------------------
