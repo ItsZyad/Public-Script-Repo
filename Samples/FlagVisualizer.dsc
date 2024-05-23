@@ -89,14 +89,14 @@ FlagVisualizer_Recur:
 
         - case Chunk:
             - define cornerOne <[flag].cuboid.corners.get[1].simple.split[,].remove[last].remove[2].separated_by[, ]>
-            - define cornerTwo <[flag].cuboid.corners.get[2].simple.split[,].remove[last].remove[2].separated_by[, ]>
+            - define cornerTwo <[flag].cuboid.corners.last.simple.split[,].remove[last].remove[2].separated_by[, ]>
             - define coordRange "<[cornerOne]> -<&gt> <[cornerTwo]>"
 
             - determine passively "<[flag].color[aqua]> <element[[range]].color[light_purple].on_hover[<[coordRange]>]>"
 
         - case Cuboid:
             - define cornerOne <[flag].corners.get[1].simple.split[,].remove[last].separated_by[,]>
-            - define cornerTwo <[flag].corners.get[2].simple.split[,].remove[last].separated_by[,]>
+            - define cornerTwo <[flag].corners.last.simple.split[,].remove[last].separated_by[,]>
             - define coordRange "<[cornerOne]> <element[-<&gt>].color[gray]> <[cornerTwo]>"
 
             - determine passively <element[cu<&at>].color[gray]><[coordRange].replace[,].with[<element[,].color[gray]>]><element[<&at>].color[gray]><[flag].world.name>
